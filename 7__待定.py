@@ -17,31 +17,24 @@ class Solution:
             return 0
         else:
             return n
+
 			
 			
-class Solution(object):
+class Solution:
     def reverse(self, x):
         """
         :type x: int
         :rtype: int
         """
-        flag = False
-        x_char = str(x)
-
-        "if negative int remove the sign"
-        if x_char[0] == '-':
-            x_char = x_char[1:]
-            flag = True
-
-        "reverse the string"
-        rev = x_char[::-1]
-
-        "add the sign if remove before"
-        if flag:
-            rev = '-' + rev
-
-        "if overflow return 0"
-        rev = int(rev)
-        if rev > 2**31 - 1 or rev < -2**31:
-            rev = 0
+        rev = 0
+        INT_MAX = 2**31 - 1
+        INT_MIN = -2**31
+        while x != 0:
+            pop = int(x % 10)
+            x = int(x / 10)
+            if rev > int(INT_MAX/10) or (rev == int(INT_MAX / 10) and pop > 7):
+                return 0
+            if (rev < int(INT_MIN/10) or (rev == int(INT_MIN / 10) and pop < -8)):
+                return 0
+            rev = rev * 10 + pop
         return rev
