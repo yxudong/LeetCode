@@ -1,44 +1,20 @@
 class Solution:
     def longestCommonPrefix(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: str
-        """
         if not strs:
             return ""
-        l, s = len(strs), ""
-        minl = len(min(strs))
-        
-        for i in range(0, minl):
+        minl = len(min(strs, key=len))
+        s = ""
+        for i in range(minl):
+            c = strs[0][i]
             flag = 1
-            j = 0
-            while j < l -1:
-                if strs[j] and strs[j][i] != strs[j+1][i]:
+            for j in range(1, len(strs)):
+                if strs[j][i] != c:
                     flag = 0
                     break
-                j += 1
-            if flag:
-                s += strs[j][i]
-            else:
+            if not flag:
                 break
+            s += c
         return s
-
-
-##############################################################################################
-
-
-class Solution:
-    def longestCommonPrefix(self, m):
-        if not m: 
-            return ""
-
-        s1 = min(m)
-        s2 = max(m)
-
-        for i, c in enumerate(s1):
-            if c != s2[i]:
-                return s1[:i]
-        return s1
 
 
 ##############################################################################################
@@ -50,8 +26,9 @@ class Solution:
             return ""
             
         for i, letter_group in enumerate(zip(*strs)):
+        # strs = ["flower","flow","flight"] 时
+        # list(zip(*strs)) 为 [('f', 'f', 'f'), ('l', 'l', 'l'), ('o', 'o', 'i'), ('w', 'w', 'g')]
             if len(set(letter_group)) > 1:
                 return strs[0][:i]
 
         return min(strs)
-
