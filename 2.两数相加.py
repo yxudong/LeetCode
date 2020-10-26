@@ -36,6 +36,7 @@ class Solution:
         for i in range(1, len(result)):
             node_tmp.next = ListNode(result[i])
             node_tmp = node_tmp.next
+
         return result_node
 
 # @lc code=end
