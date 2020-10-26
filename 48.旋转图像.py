@@ -14,6 +14,7 @@ class Solution:
         Do not return anything, modify matrix in-place instead.
         """
         length = len(matrix)
+
         for i in range(0, length):
             for j in range(i, length):
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
