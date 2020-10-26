@@ -5,6 +5,9 @@
 #
 
 # @lc code=start
+
+# Tips: array
+
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
