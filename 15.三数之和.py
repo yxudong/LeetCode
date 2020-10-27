@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: sort, two-pointers
+# Tips: array, sort, two-pointers
 
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:

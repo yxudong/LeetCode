@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: stack
+# Tips: string, stack
 
 class Solution:
     def isValid(self, s: str) -> bool:

@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: backtracking
+# Tips: array, backtracking
 
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:

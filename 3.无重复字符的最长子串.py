@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: sliding-window, two-pointers
+# Tips: string, sliding-window, two-pointers, hash-table
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:

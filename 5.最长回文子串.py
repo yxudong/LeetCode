@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: two-pointers
+# Tips: string, dynamic-programming
 
 class Solution:
     def get_expand_start_end(self, s, left, right):

@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: binary-search
+# Tips: array, binary-search
 
 class Solution:
     def searchRange(self, nums, target: int):

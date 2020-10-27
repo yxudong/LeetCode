@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: hash-table
+# Tips: string, hash-table
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:

@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: hash-table
+# Tips: array, hash-table
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:

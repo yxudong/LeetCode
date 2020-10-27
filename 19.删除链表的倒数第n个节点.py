@@ -11,7 +11,7 @@
 #         self.val = val
 #         self.next = next
 
-# Tips: linked-list
+# Tips: linked-list, two-pointers
 
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:

@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-# Tips: two-pointers
+# Tips: array, two-pointers
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
