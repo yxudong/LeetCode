@@ -42,7 +42,7 @@ class Solution:
 
         return ans_list
 
-# Tips: traverse
+# Tips: iteration
 
 # class Solution:
     # def letterCombinations(self, digits: str) -> List[str]:
