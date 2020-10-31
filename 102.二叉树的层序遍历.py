@@ -21,6 +21,7 @@ class Solution:
         queue = [root]
         while queue:
             tmp_list = []
+            # 到这里遍历的 queue 中都是位于同一层的 Node
             for _ in range(0, len(queue)):
                 tmp_node = queue.pop(0)
                 tmp_list.append(tmp_node.val)
