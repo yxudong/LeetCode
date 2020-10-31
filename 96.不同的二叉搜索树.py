@@ -24,14 +24,16 @@ class Solution:
         G(n) 函数的值在数学上被称为卡塔兰数
         Cn+1 = 2(2n + 1) * Cn / (n + 2), C0 = 1
         """
-        if n == 0:
-            return 1
-        if n == 1:
-            return 1
-        total = 0
-        for i in range(0, n):
-            total += self.numTrees(i) * self.numTrees(n - 1 - i)
-        return total
+        G = [0] * (n + 1)
+        G[0] = 1
+        G[1] = 1
+        for i in range(2, n + 1):
+            # 用 i 表示 G 的下标，当前是 G(i)
+            for j in range(1, i + 1):
+                # 用 j 表示 f 的下标，当前是 f(j) = G(j-1) * G(i-j)
+                G[i] += G[j - 1] * G[i - j]
+
+        return G[n]
 
 #Tips: tree, dynamic-programming, recursive
 
