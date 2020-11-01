@@ -12,6 +12,8 @@
 #         self.left = None
 #         self.right = None
 
+#Tips: tree, breadth-first-search
+
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:
