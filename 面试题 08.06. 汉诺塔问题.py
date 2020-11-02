@@ -19,3 +19,6 @@ class Solution:
                 # 将 B 上面 n - 1 个通过空的 A 移到 C
                 move(num - 1, _B, _A, _C)
             return
+
+        move(len(A), A, B, C)
+        return
