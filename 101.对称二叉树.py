@@ -25,10 +25,10 @@ class Solution:
             left_node = queue.pop(0)
             right_node = queue.pop(0)
             if not (left_node or right_node):
-                # 如果左右两边节点同时都没有，继续
+                # 如果左右两边结点同时都没有，继续
                 continue
             if left_node and right_node:
-                # 如果左右两边节点同时存在
+                # 如果左右两边结点同时存在
                 if left_node.val != right_node.val:
                     return False
                 queue.append(left_node.left)
@@ -37,7 +37,7 @@ class Solution:
                 queue.append(right_node.left)
                 continue
             if left_node or right_node:
-                # 如果左右两边节点只有一个存在，不对称，返回 False
+                # 如果左右两边结点只有一个存在，不对称，返回 False
                 return False
 
         return True
@@ -51,15 +51,15 @@ class Solution:
 
 #         def dfs(left_node, right_node):
 #             if not (left_node or right_node):
-#                 # 如果左右两边节点同时都没有，返回 True
+#                 # 如果左右两边结点同时都没有，返回 True
 #                 return True
 #             if left_node and right_node:
-#                 # 如果左右两边节点同时存在
+#                 # 如果左右两边结点同时存在
 #                 if left_node.val != right_node.val:
 #                     return False
 #                 return dfs(left_node.right, right_node.left) and dfs(left_node.left, right_node.right)
 #             if left_node or right_node:
-#                 # 如果左右两边节点只有一个存在，不对称，返回 False
+#                 # 如果左右两边结点只有一个存在，不对称，返回 False
 #                 return False
 
 #         return dfs(root.left, root.right)
