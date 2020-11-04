@@ -26,6 +26,6 @@ class Solution:
             fast = fast.next.next
 
         return True
-        
+
 # @lc code=end
 
