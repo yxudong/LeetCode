@@ -38,6 +38,6 @@ class Solution:
             ptr = ptr.next
 
         return ptr
-        
+
 # @lc code=end
 
