@@ -18,6 +18,7 @@ class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         ans_list = []
         stack = []
+
         while root or stack:
             while root:
                 # 一直找到 root 的最左边
@@ -25,6 +26,7 @@ class Solution:
                 root = root.left
 
             tmp_node = stack.pop()
+            # 与非递归前序遍历的区别是弹出栈的时候输出
             ans_list.append(tmp_node.val)
             root = tmp_node.right
 
