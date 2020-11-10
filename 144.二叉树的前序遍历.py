@@ -16,8 +16,8 @@
 
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
-        stack = []
         ans_list = []
+        stack = []
 
         while root or stack:
             while root:
