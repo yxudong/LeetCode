@@ -12,7 +12,7 @@
 #         self.left = None
 #         self.right = None
 
-#Tips: tree | depth-first-search
+#Tips: tree, depth-first-search
 
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
@@ -25,7 +25,7 @@ class Solution:
 
         return get_depth(root)
 
-#Tips: tree | breadth-first-search
+#Tips: tree, breadth-first-search
 
 # class Solution:
 #     def maxDepth(self, root: TreeNode) -> int:
