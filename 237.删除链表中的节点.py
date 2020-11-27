@@ -26,6 +26,6 @@ class Solution:
         node.val = node.next.val
         node.next = node.next.next
         return
-        
+
 # @lc code=end
 
