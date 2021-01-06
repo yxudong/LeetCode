@@ -12,7 +12,7 @@ class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals:
             return []
-        
+
         # 每个区间按第一个数字排序
         intervals.sort(key=lambda each: each[0])
         ans_list = []
