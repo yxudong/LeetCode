@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array
+# Tips: array
 
 class Solution:
     def searchMatrix(self, matrix, target):

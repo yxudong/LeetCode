@@ -11,7 +11,7 @@
 #         self.val = x
 #         self.next = None
 
-#Tips: linked-list
+# Tips: linked-list
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
@@ -37,7 +37,7 @@ class Solution:
 
         return long_list
 
-#Tips: linked-list
+# Tips: linked-list
 
 # class Solution:
 #     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:

@@ -11,7 +11,7 @@
 #         self.val = val
 #         self.next = next
 
-#Tips: linked-list, sort
+# Tips: linked-list, sort
 
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:

@@ -25,7 +25,7 @@ class Solution:
 
         return pre
 
-#Tips: linked-list, recursive
+# Tips: linked-list, recursive
 
 # class Solution:
 #     def reverseList(self, head: ListNode) -> ListNode:

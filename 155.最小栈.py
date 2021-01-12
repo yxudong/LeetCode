@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: stack
+# Tips: stack
 
 class MinStack:
     def __init__(self):
@@ -52,7 +52,7 @@ class MinStack:
     def getMin(self) -> int:
         return self.min_data
 
-#Tips: stack
+# Tips: stack
 
 # class MinStack:
 #     def __init__(self):

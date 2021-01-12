@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, hash-table
+# Tips: array, hash-table
 
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:

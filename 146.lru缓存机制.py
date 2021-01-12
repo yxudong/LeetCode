@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: linked-list, hash-table
+# Tips: linked-list, hash-table
 
 class DLinkedNode:
     def __init__(self, key=0, val=0, next=None, pre=None):

@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: tree, dynamic-programming
+# Tips: tree, dynamic-programming
 
 class Solution:
     def numTrees(self, n: int) -> int:
@@ -35,7 +35,7 @@ class Solution:
 
         return G[n]
 
-#Tips: tree, dynamic-programming, recursive
+# Tips: tree, dynamic-programming, recursive
 
 # class Solution:
 #     def numTrees(self, n: int) -> int:
@@ -49,7 +49,7 @@ class Solution:
 #             total += self.numTrees(i) * self.numTrees(n - 1 - i)
 #         return total
 
-#Tips: tree, math
+# Tips: tree, math
 
 # class Solution:
 #     def numTrees(self, n: int) -> int:

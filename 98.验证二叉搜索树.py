@@ -12,7 +12,7 @@
 #         self.left = None
 #         self.right = None
 
-#Tips: tree, stack, depth-first-search
+# Tips: tree, stack, depth-first-search
 
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
@@ -32,7 +32,7 @@ class Solution:
 
         return True
 
-#Tips: tree, recursive
+# Tips: tree, recursive
 
 # class Solution:
 #     def isValidBST(self, root: TreeNode) -> bool:
@@ -50,7 +50,7 @@ class Solution:
 
 #         return dfs(root)
 
-#Tips: tree, recursive, depth-first-search
+# Tips: tree, recursive, depth-first-search
 
 # class Solution:
 #     def isValidBST(self, root: TreeNode) -> bool:

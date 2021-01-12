@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array
+# Tips: array
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
@@ -30,7 +30,7 @@ class Solution:
 
         return ans_product
 
-#Tips: array
+# Tips: array
 
 # class Solution:
 #     def productExceptSelf(self, nums: List[int]) -> List[int]:

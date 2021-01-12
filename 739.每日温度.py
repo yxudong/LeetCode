@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, stack
+# Tips: array, stack
 
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:

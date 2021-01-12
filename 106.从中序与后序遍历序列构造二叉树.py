@@ -12,7 +12,7 @@
 #         self.left = None
 #         self.right = None
 
-#Tips: array, tree, depth-first-search
+# Tips: array, tree, depth-first-search
 
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:

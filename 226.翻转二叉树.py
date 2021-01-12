@@ -12,7 +12,7 @@
 #         self.left = None
 #         self.right = None
 
-#Tips: tree, depth-first-search
+# Tips: tree, depth-first-search
 
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
@@ -27,7 +27,7 @@ class Solution:
 
         return dfs(root)
 
-#Tips: tree, breadth-first-search
+# Tips: tree, breadth-first-search
 
 # class Solution:
 #     def invertTree(self, root: TreeNode) -> TreeNode:

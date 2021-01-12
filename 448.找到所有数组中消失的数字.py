@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array
+# Tips: array
 
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:

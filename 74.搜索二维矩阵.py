@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, binary-search
+# Tips: array, binary-search
 
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:

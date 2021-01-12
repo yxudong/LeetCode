@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, greedy, binary-search
+# Tips: array, greedy, binary-search
 
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
@@ -42,7 +42,7 @@ class Solution:
 
         return len_sub_array
 
-#Tips: array, dynamic-programming
+# Tips: array, dynamic-programming
 
 # class Solution:
 #     def lengthOfLIS(self, nums: List[int]) -> int:

@@ -12,7 +12,7 @@
 #         self.left = None
 #         self.right = None
 
-#Tips: tree, depth-first-search
+# Tips: tree, depth-first-search
 
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
@@ -28,7 +28,7 @@ class Solution:
         node.right = self.mergeTrees(t1.right, t2.right)
         return node
 
-#Tips: tree, breadth-first-search
+# Tips: tree, breadth-first-search
 
 # class Solution:
 #     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:

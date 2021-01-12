@@ -12,7 +12,7 @@
 #         self.left = None
 #         self.right = None
 
-#Tips: tree, recursive
+# Tips: tree, recursive
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':

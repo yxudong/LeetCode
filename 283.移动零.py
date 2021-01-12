@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips： array, two-pointers
+# Tips： array, two-pointers
 
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:

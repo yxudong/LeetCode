@@ -12,7 +12,7 @@
 #         self.left = left
 #         self.right = right
 
-#Tips: tree, depth-first-search
+# Tips: tree, depth-first-search
 
 class Solution:
     def maxPathSum(self, root: TreeNode) -> int:

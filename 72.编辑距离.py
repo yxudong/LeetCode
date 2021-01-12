@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: string, dynamic-programming
+# Tips: string, dynamic-programming
 
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:

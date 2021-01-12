@@ -12,7 +12,7 @@
 #         self.left = left
 #         self.right = right
 
-#Tips: tree
+# Tips: tree
 
 class Solution:
     def flatten(self, root: TreeNode) -> None:

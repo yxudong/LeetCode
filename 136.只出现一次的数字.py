@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, bit-manipulation
+# Tips: array, bit-manipulation
 
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:

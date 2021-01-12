@@ -12,7 +12,7 @@
 #         self.left = left
 #         self.right = right
 
-#Tips: tree, stack
+# Tips: tree, stack
 
 class Solution:
     def postorderTraversal(self, root: TreeNode) -> List[int]:
@@ -44,7 +44,7 @@ class Solution:
 
         return ans_list
 
-#Tips: tree, recursive
+# Tips: tree, recursive
 
 # class Solution:
 #     def postorderTraversal(self, root: TreeNode) -> List[int]:

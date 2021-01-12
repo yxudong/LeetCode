@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: design, trie
+# Tips: design, trie
 
 class TrieNode:
     def __init__(self, val=None, is_end=False):

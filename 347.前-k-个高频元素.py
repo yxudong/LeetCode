@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, hash-table, heap
+# Tips: array, hash-table, heap
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:

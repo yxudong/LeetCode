@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: depth-first-search
+# Tips: depth-first-search
 
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
@@ -31,7 +31,7 @@ class Solution:
 
         return count
 
-#Tips: breadth-first-search
+# Tips: breadth-first-search
 
 # class Solution:
 #     def numIslands(self, grid: List[List[str]]) -> int:

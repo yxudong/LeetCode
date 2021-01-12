@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array
+# Tips: array
 
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
@@ -44,7 +44,7 @@ class Solution:
         # (right - left + 1) <= 0 说明输入的数组已经是有序的，不存在子数组
         return right - left + 1 if (right - left + 1) > 0 else 0
 
-#Tips: array, sort
+# Tips: array, sort
 
 # class Solution:
 #     def findUnsortedSubarray(self, nums: List[int]) -> int:

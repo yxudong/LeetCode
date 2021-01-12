@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: dynamic-programming
+# Tips: dynamic-programming
 
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:

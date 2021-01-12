@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, dynamic-programming
+# Tips: array, dynamic-programming
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
@@ -24,7 +24,7 @@ class Solution:
 
         return curr
 
-#Tips: array, dynamic-programming
+# Tips: array, dynamic-programming
 
 # class Solution:
 #     def rob(self, nums: List[int]) -> int:

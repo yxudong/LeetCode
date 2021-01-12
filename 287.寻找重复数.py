@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, two-pointers
+# Tips: array, two-pointers
 
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
@@ -28,7 +28,7 @@ class Solution:
             slow = nums[slow]
         return curr
 
-#Tips: array, binary-search
+# Tips: array, binary-search
 
 # class Solution:
 #     def findDuplicate(self, nums: List[int]) -> int:

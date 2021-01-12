@@ -11,7 +11,7 @@
 #         self.val = x
 #         self.next = None
 
-#Tips: linked-list, two-pointers
+# Tips: linked-list, two-pointers
 
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:

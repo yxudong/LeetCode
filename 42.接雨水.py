@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, two-pointers
+# Tips: array, two-pointers
 
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -44,7 +44,7 @@ class Solution:
 
         return result
 
-#Tips: array, dynamic-programming
+# Tips: array, dynamic-programming
 
 # class Solution:
 #     def trap(self, height: List[int]) -> int:

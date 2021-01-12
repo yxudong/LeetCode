@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: string
+# Tips: string
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:

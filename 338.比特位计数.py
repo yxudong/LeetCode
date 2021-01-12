@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: bit-manipulation, dynamic-programming
+# Tips: bit-manipulation, dynamic-programming
 
 class Solution:
     def countBits(self, num: int) -> List[int]:

@@ -6,7 +6,7 @@
 
 # @lc code=start
 
-#Tips: array, dynamic-programming
+# Tips: array, dynamic-programming
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:

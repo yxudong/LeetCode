@@ -12,7 +12,7 @@
 #         self.left = None
 #         self.right = None
 
-#Tips: tree, breadth-first-search
+# Tips: tree, breadth-first-search
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
@@ -42,7 +42,7 @@ class Solution:
 
         return True
 
-#Tips: tree, recursive, depth-first-search
+# Tips: tree, recursive, depth-first-search
 
 # class Solution:
 #     def isSymmetric(self, root: TreeNode) -> bool:
@@ -64,7 +64,7 @@ class Solution:
 
 #         return dfs(root.left, root.right)
 
-#Tips: tree, recursive, depth-first-search
+# Tips: tree, recursive, depth-first-search
 
 # class Solution:
 #     def isSymmetric(self, root: TreeNode) -> bool:

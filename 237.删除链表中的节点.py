@@ -11,7 +11,7 @@
 #         self.val = x
 #         self.next = None
 
-#Tips: linked-list
+# Tips: linked-list
 
 class Solution:
     def deleteNode(self, node):

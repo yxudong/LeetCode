@@ -12,7 +12,7 @@
 #         self.left = left
 #         self.right = right
 
-#Tips: tree, recursive
+# Tips: tree, recursive
 
 class Solution:
     def convertBST(self, root: TreeNode) -> TreeNode:
