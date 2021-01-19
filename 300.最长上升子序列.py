@@ -48,7 +48,7 @@ class Solution:
 #     def lengthOfLIS(self, nums: List[int]) -> int:
 #         # 定义 dp[i] 为考虑前 i 个元素，以第 i 个数字结尾的最长上升子序列的长度
 #         # 注意 nums[i] 必须被选取
-#         # 求解 dp[i] 时，向前遍历找出比 i 元素小的元素 j，令 dp[i] 为 dp[i], dp[j]+1)
+#         # 求解 dp[i] 时，向前遍历找出比 i 元素小的元素 j，令 dp[i] 为 max(dp[i], dp[j] + 1)
 #         length = len(nums)
 #         dp = [1] * length
 #         for i in range(length):
