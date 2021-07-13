@@ -68,7 +68,7 @@ class Solution:
 
 # class Solution:
 #     def isSymmetric(self, root: TreeNode) -> bool:
-#         # 对称二叉树最后遍历出来的列表一定是左右对称的
+#         # 对称二叉树中序遍历出来的列表一定是左右对称的
 #         # 但左右对称的列表不一定是对称二叉树
 #         # 例如  2
 #         #      /
