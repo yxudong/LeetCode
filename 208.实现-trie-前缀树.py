@@ -10,7 +10,7 @@
 
 class TrieNode:
     def __init__(self, val=None, is_end=False):
-        self.val=val
+        self.val = val
         self.next_node_dict = {}
         self.is_end = is_end
 
