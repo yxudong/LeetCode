@@ -1,24 +1,22 @@
-# Tips: recursive
+# Tips: recursive, dynamic-programming
 
 class Solution:
-    def hanota(self, A: List[int], B: List[int], C: List[int]) -> None:
-        """
-        Do not return anything, modify C in-place instead.
-        """
-        def move(num, _A, _B, _C):
-            if num == 1:
-                _C.append(_A[-1])
-                _A.pop()
-            else:
-                # 将 A 上面 n - 1 个通过 C 移到 B
-                move(num - 1, _A, _C, _B)
-                # 将 A 最后一个移到 C
-                _C.append(_A[-1])
-                _A.pop()
-                # 这时，A 空了
-                # 将 B 上面 n - 1 个通过空的 A 移到 C
-                move(num - 1, _B, _A, _C)
-            return
+    def translateNum(self, num: int) -> int:
+        input_str = str(num)
+        length = len(input_str)
+        if length <= 1:
+            return length
+        dp = [0 for _ in range(length)]
+        dp[0] = 1
+        if 9 < int(input_str[:2]) <= 25:
+            dp[1] = 2
+        else:
+            dp[1] = 1
 
-        move(len(A), A, B, C)
-        return
+        for i in range(2, length):
+            if 9 < int(input_str[i-1:i+1]) <= 25:
+                dp[i] = dp[i-1] + dp[i-2]
+            else:
+                dp[i] = dp[i-1]
+
+        return dp[-1]

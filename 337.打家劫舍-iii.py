@@ -20,6 +20,7 @@ class Solution:
             if not node:
                 return 0, 0
 
+            # 第一个参数代表偷当前节点的最大值，第二个参数代表不偷当前节点的最大值
             left1, left2 = dfs(node.left)
             right1, right2 = dfs(node.right)
             if node.left or node.right:
