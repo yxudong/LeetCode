@@ -21,14 +21,14 @@ class Solution:
         def get_depth_dfs(node):
             if not node:
                 return 0
-            # 左儿子为根的子树的深度
+            # 左儿子为根的子树的最大深度
             left = get_depth_dfs(node.left)
-            # 右儿子为根的子树的深度
+            # 右儿子为根的子树的最大深度
             right = get_depth_dfs(node.right)
             # 不断比较更新直径上的结点数
-            # 以某个结点为根的树 直径上的结点数等于左子树深度 + 右子树深度 + 1
+            # 以某个结点为根的树，直径上的结点数等于左子树最大深度 + 右子树最大深度 + 1
             self.diameter_node = max(left + right + 1, self.diameter_node)
-            # 返回该节点为根的子树的深度
+            # 返回该节点为根的子树的最大深度
             return max(left, right) + 1
 
         get_depth_dfs(root)
